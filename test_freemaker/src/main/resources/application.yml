@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      uri:  mongodb://root:root@localhost:27017/demo
+  freemarker:
+    settings:
+      classic_compatible: true
+
+server:
+  port: 8088
